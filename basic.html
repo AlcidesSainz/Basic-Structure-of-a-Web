@@ -1,0 +1,45 @@
+<html>
+<head>
+    <title>My First Web Page</title>
+    <meta name="description" content="Page Description Here"/>
+    <meta http-equiv="Content-Type" content="text/html"; charset="utf-8"/>
+    <meta name="viewpoirt" content="width=device-width, initial-scale=1"/>
+
+    <style type="text/css">
+        Body{
+            color: red;
+        }
+    </style>
+
+    <script>
+        function myFunction(){
+            var x = document.getElementById("fname");
+            x.value = x.value.toUpperCase();
+        }
+    </script>
+</head>
+
+<body>
+    <p> This is a Sample HTML Document.</p>
+    <p>This JavaScript function will capitalize my name:</p>
+    Enter your name: <input type="text" id="fname" onchange="myFunction()">
+                                        <!--&nbsp(Non-Breaking-Space)-->
+    <p>This is Line 1. <br> This is Line 2. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    This is Line 3</p>
+
+    <h1>Header 1</h1>
+    <h2>Header 2</h2>
+    <h3>Header 3</h3>
+    <h4>Header 4</h4>
+    <h5>Header 5</h5>
+
+    <p>
+        <strong>Bold Text</strong> <br>
+        <em>Italic Text</em> <br>
+        <u>Underlined Text</u><br>
+        <strike>Strike Text</strike><br>
+
+        <strong><em><u><strike>Mixed Text(Bold, Italic,Underlined,Strike) Format</strike></u></em></strong>
+    </p>
+
+</body>
+</html>
